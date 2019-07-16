@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{88424AC9-ED41-01A8-D42B-B147FB6673B1}</ProjectGuid>
+    <ProjectGuid>{50365A2D-DF67-066B-6466-0FD46D045330}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,13 +60,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\code\camera.cs" />
     <Compile Include="Assets\code\camera2.cs" />
     <Compile Include="Assets\code\CPUmove.cs" />
     <Compile Include="Assets\code\damage.cs" />
     <Compile Include="Assets\code\HP.cs" />
+    <Compile Include="Assets\code\LobbyPlayer.cs" />
+    <Compile Include="Assets\code\MyNetworkManagerHUD.cs" />
     <Compile Include="Assets\code\Player.cs" />
-    <Compile Include="Assets\code\rem.cs" />
+    <Compile Include="Assets\code\PlayerID.cs" />
     <Compile Include="Assets\code\SyncMissile.cs" />
     <Compile Include="Assets\Lobby\Scripts\DraggablePanel.cs" />
     <Compile Include="Assets\Lobby\Scripts\EventSystemChecker.cs" />
@@ -85,19 +86,19 @@
     <None Include="Assets\Lobby\Instruction.txt" />
     <None Include="Assets\Fonts\OpenSans\FontLicense.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Unityクライアント (2)/Unityクライアント/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/.git/OpenCampus/2019/Uniler/The Starry Sky of Jupiter/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Unityクライアント (2)/Unityクライアント/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/.git/OpenCampus/2019/Uniler/The Starry Sky of Jupiter/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Unityクライアント (2)/Unityクライアント/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/.git/OpenCampus/2019/Uniler/The Starry Sky of Jupiter/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Unityクライアント (2)/Unityクライアント/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/.git/OpenCampus/2019/Uniler/The Starry Sky of Jupiter/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/Unityクライアント (2)/Unityクライアント/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/.git/OpenCampus/2019/Uniler/The Starry Sky of Jupiter/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -301,13 +302,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.7f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/Unityクライアント (2)/Unityクライアント/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/.git/OpenCampus/2019/Uniler/The Starry Sky of Jupiter/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/Unityクライアント (2)/Unityクライアント/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/.git/OpenCampus/2019/Uniler/The Starry Sky of Jupiter/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/Unityクライアント (2)/Unityクライアント/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/.git/OpenCampus/2019/Uniler/The Starry Sky of Jupiter/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.7f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

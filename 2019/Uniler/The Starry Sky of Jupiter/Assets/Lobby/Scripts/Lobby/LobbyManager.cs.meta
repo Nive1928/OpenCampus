@@ -1,10 +1,23 @@
 fileFormatVersion: 2
 guid: 38de513803c5e60498ad31fbc327b120
-timeCreated: 1434465656
-licenseType: Store
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - m_PlayerPrefab: {fileID: 2309918022168264451, guid: 4a4f86266ba9e304e985d64f949002d7,
+      type: 3}
+  - matchMaker: {instanceID: 0}
+  - m_LobbyPlayerPrefab: {instanceID: 0}
+  - m_GamePlayerPrefab: {instanceID: 0}
+  - topPanel: {instanceID: 0}
+  - mainMenuPanel: {instanceID: 0}
+  - lobbyPanel: {instanceID: 0}
+  - infoPanel: {instanceID: 0}
+  - countdownPanel: {instanceID: 0}
+  - addPlayerButton: {instanceID: 0}
+  - backButton: {instanceID: 0}
+  - statusInfo: {instanceID: 0}
+  - hostInfo: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
