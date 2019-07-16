@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 37918257}
   - component: {fileID: 37918259}
   m_Layer: 5
-  m_Name: "\u80CC\u666F (3)"
+  m_Name: Judgment(left)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -575,7 +575,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_UsedByComposite: 1
   m_Offset: {x: -0.0001039803, y: 0.010252237}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,7 +615,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.0619445
+  orthographic size: 6.9722686
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -643,7 +643,7 @@ Transform:
   m_LocalScale: {x: 100, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &519420033
 MonoBehaviour:
@@ -658,7 +658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  offset: {x: 0, y: 0, z: -10}
+  offset: {x: 0, y: 3, z: -10}
 --- !u!50 &519420034
 Rigidbody2D:
   serializedVersion: 4
@@ -771,7 +771,7 @@ GameObject:
   - component: {fileID: 764677227}
   - component: {fileID: 764677226}
   m_Layer: 5
-  m_Name: "\u80CC\u666F (2)"
+  m_Name: Judgment(up)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1047,7 +1047,7 @@ Grid:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012184349}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CellSize: {x: 1, y: 1, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
@@ -1237,7 +1237,7 @@ GameObject:
   - component: {fileID: 1240555305}
   - component: {fileID: 1240555303}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: "HP\u30D0\u30FC"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1299,7 +1299,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240555300}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.5197, y: 23.873127, z: -9.5}
+  m_LocalPosition: {x: 17.78, y: 23.79, z: -9.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 494857209}
@@ -1542,7 +1542,7 @@ GameObject:
   - component: {fileID: 1477300795}
   - component: {fileID: 1477300794}
   m_Layer: 8
-  m_Name: HP
+  m_Name: HP collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1670,7 +1670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 519420032}
-  offset: {x: 0, y: 0, z: -10}
+  offset: {x: 0, y: -3, z: 10}
 --- !u!1 &1533628811
 GameObject:
   m_ObjectHideFlags: 0
@@ -1999,7 +1999,7 @@ GameObject:
   - component: {fileID: 1703283141}
   - component: {fileID: 1703283143}
   m_Layer: 5
-  m_Name: "\u80CC\u666F (4)"
+  m_Name: Judgment(under)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2263,7 +2263,7 @@ GameObject:
   - component: {fileID: 1836518550}
   - component: {fileID: 1836518552}
   m_Layer: 5
-  m_Name: "\u80CC\u666F(1)"
+  m_Name: Judgment(right)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2329,7 +2329,7 @@ Transform:
   m_LocalScale: {x: 0.091682546, y: 39.17012, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1836518552
 BoxCollider2D:
@@ -2368,7 +2368,7 @@ GameObject:
   - component: {fileID: 1855864170}
   - component: {fileID: 1855864169}
   m_Layer: 5
-  m_Name: GSFC_20171208_Archive_e002039~orig
+  m_Name: backimage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
